@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945679818822",
+    "firebase_url": "https://kota-travel-survey-app-default-rtdb.firebaseio.com",
+    "project_id": "kota-travel-survey-app",
+    "storage_bucket": "kota-travel-survey-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945679818822:android:fe9c007fa604fa6128aa47",
+        "android_client_info": {
+          "package_name": "com.example.travelsurveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNDdoUhbQJkSC4gcCIPw_2fXZzZXxMgCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

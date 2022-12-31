@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/signin"
+        android:name="com.example.travelsurveyapp.fragments.signin"
+        android:label="fragment_signin"
+        tools:layout="@layout/fragment_signin" >
+        <action
+            android:id="@+id/action_signin_to_signup"
+            app:destination="@id/signup"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_signin_to_startpointFragment"
+            app:destination="@id/startpointFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signup"
+        android:name="com.example.travelsurveyapp.fragments.signup"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signup_to_signin"
+            app:destination="@id/signin"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.example.travelsurveyapp.fragments.splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splash_to_startpointFragment"
+            app:destination="@id/startpointFragment" />
+        <action
+            android:id="@+id/action_splash_to_message2"
+            app:destination="@id/message2" />
+    </fragment>
+    <fragment
+        android:id="@+id/surveyquestions"
+        android:name="com.example.travelsurveyapp.fragments.surveyquestions"
+        android:label="fragment_surveyquestions"
+        tools:layout="@layout/fragment_surveyquestions" >
+        <action
+            android:id="@+id/action_surveyquestions_to_endscreen"
+            app:destination="@id/endscreen" />
+        <action
+            android:id="@+id/action_surveyquestions_to_letsstart"
+            app:destination="@id/letsstart" />
+    </fragment>
+    <fragment
+        android:id="@+id/endscreen"
+        android:name="com.example.travelsurveyapp.fragments.endscreen"
+        android:label="fragment_endscreen"
+        tools:layout="@layout/fragment_endscreen" >
+        <action
+            android:id="@+id/action_endscreen_to_signin"
+            app:destination="@id/signin" />
+    </fragment>
+    <fragment
+        android:id="@+id/letsstart"
+        android:name="com.example.travelsurveyapp.fragments.letsstart"
+        android:label="fragment_letsstart"
+        tools:layout="@layout/fragment_letsstart" >
+        <action
+            android:id="@+id/action_letsstart_to_surveyquestions"
+            app:destination="@id/surveyquestions" />
+        <action
+            android:id="@+id/action_letsstart_to_endscreen"
+            app:destination="@id/endscreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/endpointFragment"
+        android:name="com.example.travelsurveyapp.fragments.endpointFragment"
+        android:label="fragment_endpoint"
+        tools:layout="@layout/fragment_endpoint" >
+        <action
+            android:id="@+id/action_endpointFragment_to_letsstart"
+            app:destination="@id/letsstart" />
+    </fragment>
+    <fragment
+        android:id="@+id/startpointFragment"
+        android:name="com.example.travelsurveyapp.fragments.startpointFragment"
+        android:label="fragment_startpoint"
+        tools:layout="@layout/fragment_startpoint" >
+        <action
+            android:id="@+id/action_startpointFragment_to_message1"
+            app:destination="@id/message1" />
+    </fragment>
+    <fragment
+        android:id="@+id/tracklocationFragment"
+        android:name="com.example.travelsurveyapp.fragments.tracklocationFragment"
+        android:label="fragment_tracklocation"
+        tools:layout="@layout/fragment_tracklocation" >
+        <action
+            android:id="@+id/action_tracklocationFragment_to_endpointFragment"
+            app:destination="@id/endpointFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/message1"
+        android:name="com.example.travelsurveyapp.fragments.message1"
+        android:label="fragment_message1"
+        tools:layout="@layout/fragment_message1" >
+        <action
+            android:id="@+id/action_message1_to_tracklocationFragment"
+            app:destination="@id/tracklocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/message2"
+        android:name="com.example.travelsurveyapp.fragments.message2"
+        android:label="fragment_message2"
+        tools:layout="@layout/fragment_message2" >
+        <action
+            android:id="@+id/action_message2_to_signin"
+            app:destination="@id/signin" />
+    </fragment>
+    <fragment
+        android:id="@+id/serviceexample"
+        android:name="com.example.travelsurveyapp.fragments.serviceexample"
+        android:label="fragment_serviceexample"
+        tools:layout="@layout/fragment_serviceexample" />
+</navigation>
