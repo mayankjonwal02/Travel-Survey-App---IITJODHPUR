@@ -8,9 +8,96 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:945679818822:android:9850cc8d6e83b16628aa47",
+        "android_client_info": {
+          "package_name": "com.IITJODHPUR.travelsurveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNDdoUhbQJkSC4gcCIPw_2fXZzZXxMgCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945679818822:android:bf9123026da2616028aa47",
+        "android_client_info": {
+          "package_name": "com.example.travelsurvey_author"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNDdoUhbQJkSC4gcCIPw_2fXZzZXxMgCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:945679818822:android:fe9c007fa604fa6128aa47",
         "android_client_info": {
           "package_name": "com.example.travelsurveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNDdoUhbQJkSC4gcCIPw_2fXZzZXxMgCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945679818822-j78u7eckj14kril0sihvptq1v6284nfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945679818822:android:f40d9165dda09a7f28aa47",
+        "android_client_info": {
+          "package_name": "com.iitj.travelsurveyapp"
         }
       },
       "oauth_client": [

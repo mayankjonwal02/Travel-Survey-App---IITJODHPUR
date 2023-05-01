@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         android:text="next"
         android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView22"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -27,6 +27,7 @@
         android:src="@drawable/wave__10_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -43,31 +44,29 @@
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/bungee_inline"
         android:text="Disclaimer"
         android:textAlignment="center"
         android:textColor="#E91E63"
         android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:cardMaxElevation="10dp"
         app:cardUseCompatPadding="true"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.68">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView8"
@@ -75,9 +74,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:fontFamily="@font/baloo_bhaina"
-            android:text="Your participation is voluntary. We at IIT Jodhpur thank you for installing the app and participating in the Travel survey of Kota City The app evaluates travel behavior in Kota City. We would like you, through this app, to provide information about how you travel (by enabling and giving the app access to the location), as well as your survey responses regarding background information, daily travel activity, and your perceived quality of life. IIT Jodhpur designed the app, and the data collected will be shared only with Civil and Infrastructure Engineering IIT Jodhpur for research purposes. Data collected automatically via your mobile phone is stored in India. Only people working on the project will have access to the material, and the data analysis will be carried out on coded material. All data in the project will be processed so unauthorized persons cannot access them. We assure you that no personal, sensitive information is collected, and data will not be disclosed to other organizations. Proper care will be ensured in handling data and maintaining your privacy. Thank you for your valuable contribution; wishing you the best! For query contact Dr.                                                                                                                                                                                                                              Ranju Mohan, ranju@iitj.ac.in                                                                                                                                                             Shahiq Wani, wani.1@iitj.ac.in                                                                                                                                                                              Vikas Meena, meena.78@iitj.ac.in"
+            android:text="Your participation is voluntary. We at IIT Jodhpur thank you for installing the app and participating in the Travel survey of Kota City The app evaluates travel behavior in Kota City. We would like you, through this app, to provide information about how you travel (by enabling and giving the app access to the location), as well as your survey responses regarding background information, daily travel activity, and your perceived quality of life. IIT Jodhpur designed the app, and the data collected will be shared only with Civil and Infrastructure Engineering IIT Jodhpur for research purposes. Data collected automatically via your mobile phone is stored in India. Only people working on the project will have access to the material, and the data analysis will be carried out on coded material. All data in the project will be processed so unauthorized persons cannot access them. We assure you that no personal, sensitive information is collected, and data will not be disclosed to other organizations. Proper care will be ensured in handling data and maintaining your privacy. Thank you for your valuable contribution; wishing you the best! For query contact   Dr.  Ranju Mohan, ranju@iitj.ac.in , Shahiq Wani, wani.1@iitj.ac.in , Vikas Meena, meena.78@iitj.ac.in"
             android:textAlignment="textStart"
-            android:textSize="10sp" />
+            android:textSize="8dp" />
 
     </androidx.cardview.widget.CardView>
 

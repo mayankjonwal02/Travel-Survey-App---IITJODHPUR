@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signin"
-        android:name="com.example.travelsurveyapp.fragments.signin"
+        android:name="com.iitj.travelsurveyapp.fragments.signin"
         android:label="fragment_signin"
         tools:layout="@layout/fragment_signin" >
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/signup"
-        android:name="com.example.travelsurveyapp.fragments.signup"
+        android:name="com.iitj.travelsurveyapp.fragments.signup"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" >
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/splash"
-        android:name="com.example.travelsurveyapp.fragments.splash"
+        android:name="com.iitj.travelsurveyapp.fragments.splash"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -45,7 +45,7 @@
     </fragment>
     <fragment
         android:id="@+id/surveyquestions"
-        android:name="com.example.travelsurveyapp.fragments.surveyquestions"
+        android:name="com.iitj.travelsurveyapp.fragments.surveyquestions"
         android:label="fragment_surveyquestions"
         tools:layout="@layout/fragment_surveyquestions" >
         <action
@@ -57,7 +57,7 @@
     </fragment>
     <fragment
         android:id="@+id/endscreen"
-        android:name="com.example.travelsurveyapp.fragments.endscreen"
+        android:name="com.iitj.travelsurveyapp.fragments.endscreen"
         android:label="fragment_endscreen"
         tools:layout="@layout/fragment_endscreen" >
         <action
@@ -66,7 +66,7 @@
     </fragment>
     <fragment
         android:id="@+id/letsstart"
-        android:name="com.example.travelsurveyapp.fragments.letsstart"
+        android:name="com.iitj.travelsurveyapp.fragments.letsstart"
         android:label="fragment_letsstart"
         tools:layout="@layout/fragment_letsstart" >
         <action
@@ -78,7 +78,7 @@
     </fragment>
     <fragment
         android:id="@+id/endpointFragment"
-        android:name="com.example.travelsurveyapp.fragments.endpointFragment"
+        android:name="com.iitj.travelsurveyapp.fragments.endpointFragment"
         android:label="fragment_endpoint"
         tools:layout="@layout/fragment_endpoint" >
         <action
@@ -87,7 +87,7 @@
     </fragment>
     <fragment
         android:id="@+id/startpointFragment"
-        android:name="com.example.travelsurveyapp.fragments.startpointFragment"
+        android:name="com.iitj.travelsurveyapp.fragments.startpointFragment"
         android:label="fragment_startpoint"
         tools:layout="@layout/fragment_startpoint" >
         <action
@@ -96,7 +96,7 @@
     </fragment>
     <fragment
         android:id="@+id/tracklocationFragment"
-        android:name="com.example.travelsurveyapp.fragments.tracklocationFragment"
+        android:name="com.iitj.travelsurveyapp.fragments.tracklocationFragment"
         android:label="fragment_tracklocation"
         tools:layout="@layout/fragment_tracklocation" >
         <action
@@ -105,7 +105,7 @@
     </fragment>
     <fragment
         android:id="@+id/message1"
-        android:name="com.example.travelsurveyapp.fragments.message1"
+        android:name="com.iitj.travelsurveyapp.fragments.message1"
         android:label="fragment_message1"
         tools:layout="@layout/fragment_message1" >
         <action
@@ -114,7 +114,7 @@
     </fragment>
     <fragment
         android:id="@+id/message2"
-        android:name="com.example.travelsurveyapp.fragments.message2"
+        android:name="com.iitj.travelsurveyapp.fragments.message2"
         android:label="fragment_message2"
         tools:layout="@layout/fragment_message2" >
         <action
@@ -123,7 +123,7 @@
     </fragment>
     <fragment
         android:id="@+id/serviceexample"
-        android:name="com.example.travelsurveyapp.fragments.serviceexample"
+        android:name="com.iitj.travelsurveyapp.fragments.serviceexample"
         android:label="fragment_serviceexample"
         tools:layout="@layout/fragment_serviceexample" />
 </navigation>
